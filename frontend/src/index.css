@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #fff8f5;
+  --color-primary-100: #ffede6;
+  --color-primary-300: #ffbc99;
+  --color-primary-400: #ff8c4d;
+  --color-primary-500: #ff671f;
+  --color-primary-600: #e65c1c;
+  --color-primary-700: #cc5219;
+  --color-primary-800: #993d13;
+  --color-primary-900: #7a310f;
+  
+  --font-sans: 'Outfit', sans-serif;
+  --font-heading: 'Rozha One', serif;
+}
+
+@layer base {
+  body {
+    background-color: #fafaf5;
+    color: #2d1f1b;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: var(--font-sans);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: #4a2512;
+  }
+}
