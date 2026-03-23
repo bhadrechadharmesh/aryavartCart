@@ -2,7 +2,7 @@
 
 AryavartCart is a modern, full-stack dropshipping e-commerce platform built on the MERN stack. Designed with a rich, traditional Indian aesthetic featuring warm saffron and terracotta colors, AryavartCart delivers a premium shopping experience with a seamless frontend and robust backend management.
 
-## 🌟 Features
+## Features
 
 ### Customer Features
 - **Modern Traditional UI**: A beautiful, responsive design blending traditional Indian aesthetics with modern web design principles using Tailwind CSS.
@@ -19,7 +19,7 @@ AryavartCart is a modern, full-stack dropshipping e-commerce platform built on t
 - **Order Management**: A comprehensive detailed view of all store transactions including customer credentials, shipping coordinates, and line-item financial breakdowns.
 - **Order Lifecycle**: Editable order statuses (`Pending`, `Processing`, `Shipped`, `Delivered`, `Cancelled`) complete with Tracking Number support.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: React (Vite), React Router DOM, Redux Toolkit, Tailwind CSS, Lucide React
 - **Backend**: Node.js, Express.js
@@ -28,7 +28,7 @@ AryavartCart is a modern, full-stack dropshipping e-commerce platform built on t
 - **Payment Processing**: Stripe API
 - **File Management**: Multer (Local disk storage)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 Make sure you have [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com/) installed on your machine.
@@ -85,7 +85,7 @@ EMAIL_PASS=your_email_password
    ```
    The application will start on `http://localhost:5173`.
 
-## 👮 Admin Access
+## Admin Access
 
 To access the Admin features:
 1. Register a new user account through the frontend UI.
